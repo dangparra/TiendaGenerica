@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; } 
+
+body{
+    background-image:url("Wallpaper.jpg"); 
+    background-size: cover;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    height: 100px;
+    /*position: fixed;*/
+}
+/*.cont_titulologo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: color 0;
+}*/
+
+
+ h1{
+    /*background-color: #c8c8c8;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    height: 40px;
+   
+    margin-left: 15px;
+    margin-right: 10px;
+    align-self:center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+h2{
+	/*background-color: #c8c8c8;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    padding-left: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+	
+}
+	
+#yosoynav{
+	/*background-color:rgb(255,255,255) ;*/
+	float:left;
+	margin-left: auto;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+/*.logo{
+    background-image:url("Logo.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    /*border: 10px  solid  yellowgreen  ;
+    border-radius: 50px 20px 10px 5px ; /* para circulo 50 px */
+/*    border-radius: 10px;
+
+}*/
+
+li{
+    display: inline;
+    /*background-color: 0;*/
+    margin-top: 10px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+p{
+	size: "50";
+	padding-top: 20px;
+	margin-left: 15px;
+    margin-right: 10px;
+    align-self:center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+/*.logo2{
+	 background-image:url("Logo.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    /*border: 10px  solid  yellowgreen  ;
+    border-radius: 50px 20px 10px 5px ; /* para circulo 50 px */
+  /* border-radius: 10px;
+	
+}*/
+
+a{
+	text-decoration: none;
+	color: white;
+}
