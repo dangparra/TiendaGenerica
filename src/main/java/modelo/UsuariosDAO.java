@@ -11,8 +11,8 @@ public class UsuariosDAO {
 	Conexion_BD_tienda_generica con= new Conexion_BD_tienda_generica();
 	Connection cnn =con.conexionbd();
 	PreparedStatement  ps;
-	ResultSet rs ; /* clase que guarda los registros  falta incluir temporal */
-	UsuariosDTO usuariodto=null ;/* falta por traer*/
+	ResultSet rs ; 
+	UsuariosDTO usuariodto=null ;
 	
 	public boolean insertarusuario(UsuariosDTO user) {
 		int r;

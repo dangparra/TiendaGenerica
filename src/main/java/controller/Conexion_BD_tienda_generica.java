@@ -14,7 +14,7 @@ public class Conexion_BD_tienda_generica {
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				try {
-				     cnn=DriverManager.getConnection("jdbc:mysql://localhost/tienda_generica","root","Bicolombia2021");
+				     cnn=DriverManager.getConnection("jdbc:mysql://localhost/tienda_generica","root","861211");
 				     JOptionPane.showMessageDialog(null,"Conexion Base de datos Tienda_generica ok");
 						
 			} catch (SQLException e) {
