@@ -47,7 +47,7 @@ public class Servletclientes extends HttpServlet {
 		boolean x;
 
 		
-		//insertar un usuario
+		//insertar un cliente
 		
 		if(request.getParameter("btncliente")!=null) {
 			cc_cli=Long.parseLong(request.getParameter("cc_cliente"));
@@ -105,14 +105,32 @@ public class Servletclientes extends HttpServlet {
 			    	}
 			    response.sendRedirect("clientes.jsp");
 			}
-			if(request.getParameter("btnconsg")!= null) {
-				
-			}
+			
+			
+			// Eliminar cliente
+			
+			
+			if(request.getParameter("btnelim")!= null) {
+				int dat;
+				cc_cli = Long.parseLong(request.getParameter("cc_cliente"));
+				cliDTO= new clientesDTO(cc_cli);
+				cliDAO= new clientesDAO();
+				dat=cliDAO.eliminar(cliDTO);
+				if (dat>0) {
+					JOptionPane.showMessageDialog(null, "cliente eliminado");
+				}
+				else {
+					JOptionPane.showMessageDialog(null, "cliente no eliminado");
+				}
+				response.sendRedirect("clientes.jsp");
 				
 			}
 			
-		
-		
+			}
+			
+	
+	
+	       		
 		//actualización en linea
 		
 

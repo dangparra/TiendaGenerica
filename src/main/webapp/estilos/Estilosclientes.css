@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+
+   html{
+   background-image:url("../imagenes/Wallpaper.jpg");
+    background-size: cover;
+   } 
+  	
+
+
+form {
+	
+	
+	color:orange;
+	font-family: cursive;
+	
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    height: 100px; 
+}

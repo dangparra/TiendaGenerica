@@ -4,11 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+
+ <link  rel="stylesheet" href="estilos/Stylegestionusuarios.css"> 
 </head>
-<script type="text/javascript"src="js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="js/consultar.js"></script>
-<body>
+<!-- <script type="text/javascript"src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/consultar.js"></script> -->
+
 <%
 String ced;
 String dir, email, tel, nom;
@@ -19,19 +20,40 @@ nom=request.getParameter("nom");
 tel=request.getParameter("tel");
 
 %>
-
-<label> Clientes</label>
-	<form action="Servletclientes.java" method="POST">
+<h3>
+MODULO CLIENTES
+</h3>
+<br>
+<body>
+	<form action="Servletclientes" method="POST" class="formulario_clientes">
 		<!-- placeholder pone en el input un nombre en la parte grafica -->
-		<input type="text" name="cc_cliente" value="<%=ced %>"placeholder="cc cliente">
-	    <input type="text" name="dir_cliente" value="<%=dir %>"placeholder="Dirección cliente"> 
-	    <input type="text"name="email_cliente" value="<%=email %>"placeholder= "email cliente"> 
-		<input type="text"name="nombre_cliente" value="<%=nom %>"placeholder="Nombre cliente">
-        <input type="text" name="telefono_cliente" value="<%=tel %>"placeholder="Telefono cliente">  		
-		<input type="submit" name="btncliente" value="insertar" >
-		<input type="submit" name="cons" value="consultar">
-		<input type="submit" name="btnact" value="actualizar">
-		 <input type="submit" name="btnelim" value="eliminar">
+		<p>Cedula Cliente: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="cc_cliente" value="<%=ced %>"placeholder="cc_cliente"> </p>
+	    <br>
+	    <p>Dirección: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="dir_cliente" value="<%=dir %>"placeholder=" Dirección cliente"> </p> 
+	   <br>
+	   <br>
+	    <p>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="email_cliente" value="<%=email %>" placeholder= "email cliente"> </p>
+		<br>
+	    <br>
+		<p>Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="nombre_cliente" value="<%=nom %>" placeholder="Nombre cliente"> </p>
+        <br>
+	    <br>
+        <p>Teléfono:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="telefono_cliente" value="<%=tel %>" placeholder="Telefono cliente"> </p>  		
+		 <br>
+	     <br>
+	     <br>
+	    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp; &nbsp;&nbsp;
+	
+		<input type="submit" name="btncliente" value="insertar" > &nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" name="cons" value="consultar"> &nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" name="btnact" value="actualizar"> &nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type="submit" name="btnelim" value="eliminar"> &nbsp;&nbsp;&nbsp;&nbsp;
 			
 	</form>
 

@@ -7,30 +7,32 @@ public class clientesDTO {
 	private String nombre_cliente;
 	private String telefono_cliente;
 	
-
+	//constructores general
 	
-
 	public clientesDTO(Long cc_cliente, String dir_cliente, String email_cliente, String nombre_cliente,
 			String telefono_cliente) {
-		
+		super();
 		this.cc_cliente = cc_cliente;
 		this.dir_cliente = dir_cliente;
 		this.email_cliente = email_cliente;
 		this.nombre_cliente = nombre_cliente;
 		this.telefono_cliente = telefono_cliente;
 	}
-
-
-	public clientesDTO(long cc_cli) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public long getCc_cliente() {
+	
+	// constructor cedula cliente
+	
+	public Long getCc_cliente() {
 		return cc_cliente;
 	}
+	public clientesDTO(Long cc_cliente) {
+		super();
+		this.cc_cliente = cc_cliente;
+	}
 	
-
-	public void setCc_cliente(long cc_cliente) {
+	
+    //setters y getters
+	
+	public void setCc_cliente(Long cc_cliente) {
 		this.cc_cliente = cc_cliente;
 	}
 	public String getDir_cliente() {
@@ -58,8 +60,10 @@ public class clientesDTO {
 		this.telefono_cliente = telefono_cliente;
 	}
 	
+    
 	
 
+	
 	
 
 }

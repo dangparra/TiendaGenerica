@@ -8,21 +8,21 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- media query -->
- <link  rel="stylesheet" href="Styless.css">
+ <link  rel="stylesheet" href="estilos/Styless.css">
 
 </head>
 
 <body>
 <header id="headercont2" class="estenombrelopongoyo2"> 
         <div class="cont_titulologo" id="cont_titulologo">
-        <h2> Gestion Usuarios</h2>
+        <h2> MENU TIENDA</h2>
         <div class="logo2"> </div>  <!-- marcar donde va el logo -->
         </div>
         <nav class="nav2" id ="yosoynav">
             <ul>
                 <li>  <a href="vistausuarios.jsp"> Usuarios </a> </li>
                 
-                <li>  <a href=""> Clientes   </a> </li>
+                <li>  <a href="clientes.jsp"> Clientes   </a> </li>
                 
                 <li>  <a href="" >Proveedores </a> </li>
                 

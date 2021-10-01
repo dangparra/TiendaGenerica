@@ -52,13 +52,7 @@ public class UsuariosDAO {
 		}
 	return usuariodto 	; /* retorna la consulta */
 	}
-	
-  
-	
-	
-	
-	
-	
+		
 	
 //  ACTUALIZAR  LOS CAMPOS 
 	public int actualizarusuario(UsuariosDTO act) {
