@@ -56,6 +56,6 @@ MODULO PROVEEDORES
 		 <input type="submit" name="btnelimproveedor" value="Borrar"> &nbsp;&nbsp;&nbsp;&nbsp;
 			
 	</form>
-
+	
 </body>
 </html>
