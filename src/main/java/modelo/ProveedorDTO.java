@@ -1,6 +1,5 @@
 package modelo;
  
-
 public class ProveedorDTO {
 
 	private Long nit_proveedor;
