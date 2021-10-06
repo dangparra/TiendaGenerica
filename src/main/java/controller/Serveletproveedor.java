@@ -10,13 +10,12 @@ import javax.swing.JOptionPane;
 
 import modelo.ProveedorDAO;
 import modelo.ProveedorDTO;
-import modelo.clientesDAO;
-import modelo.clientesDTO;
+
 
 /**
  * Servlet implementation class Servletclientes
  */
-@WebServlet("/Servletclientes")
+@WebServlet("/Servletproveedor")
 
 public class Serveletproveedor extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -78,8 +77,8 @@ public class Serveletproveedor extends HttpServlet {
 				ProDAO=new ProveedorDAO();
 				registro=ProDAO.consultar_proveedor(ProDTO);
 				nit=registro.getNit_proveedor();
-				dir=registro.getDir_proveedor();
 				nom=registro.getNombre_proveedor();
+				dir=registro.getDir_proveedor();
 				tel=registro.getTel_proveedor();
 				ciu = registro.getCiudad_proveedor();
 				response.sendRedirect("proveedor.jsp?nit="+nit+"&&dir="+dir+"&&nom="+nom+"&&tel="+tel+"&&ciu="+ciu);
