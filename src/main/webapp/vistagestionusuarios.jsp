@@ -23,10 +23,11 @@
                 <li>  <a href="vistausuarios.jsp"> Usuarios </a> </li>
                 
                 <li>  <a href="clientes.jsp"> Clientes   </a> </li>
+               
                 
-                <li>  <a href="" >Proveedores </a> </li>
+                <li>  <a href="proveedor.jsp" >Proveedores </a> </li>
                 
-                <li> <a href="" > Productos</a> </li>
+                <li> <a href="productos.jsp" > Productos</a> </li>
                 
                 <li> <a href="" > Ventas</a> </li>
                 

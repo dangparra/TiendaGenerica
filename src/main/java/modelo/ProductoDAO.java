@@ -5,8 +5,6 @@ import java.sql.PreparedStatement;
 
 import javax.swing.JOptionPane;
 
-import com.mysql.cj.xdevapi.PreparableStatement;
-
 import controller.Conexion_BD_tienda_generica;
 
 public class ProductoDAO {
