@@ -29,7 +29,7 @@
                 
                 <li> <a href="productos.jsp" > Productos</a> </li>
                 
-                <li> <a href="" > Ventas</a> </li>
+                <li> <a href="ventas.jsp" > Ventas</a> </li>
                 
                 <li> <a href="" > Reportes</a> </li>
                 

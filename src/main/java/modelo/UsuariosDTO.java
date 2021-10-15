@@ -22,7 +22,14 @@ public class UsuariosDTO {
 			/*super();*/
 			this.cedula_usuario = cedula_usuario;
 		}
-
+    
+		public UsuariosDTO(String usuario, String password) {
+			super();
+			this.usuario = usuario;
+			this.password = password;
+		}
+		
+		
 	public int getCedula_usuario() {
 		return cedula_usuario;
 	}

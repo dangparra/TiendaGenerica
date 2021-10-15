@@ -14,7 +14,7 @@ public class Conexion_BD_tienda_generica {
 			try {
 				Class.forName("org.mariadb.jdbc.Driver");
 				try {
-				    cnn=DriverManager.getConnection("jdbc:mariadb://tiendagenericagrupo43-10-32.czo3ixoe3xoe.us-east-1.rds.amazonaws.com:3306/grupo9_tienda","admin","123456789");
+				    cnn=DriverManager.getConnection("jdbc:mariadb://tiendagenericagrupo43-10-32.czo3ixoe3xoe.us-east-1.rds.amazonaws.com:3306/G9GRUPO43","admin","123456789");
 				     JOptionPane.showMessageDialog(null,"Conexion Base de datos Tienda_generica ok");
 						
 			} catch (SQLException e) {

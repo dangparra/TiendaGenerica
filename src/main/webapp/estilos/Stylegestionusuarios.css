@@ -38,15 +38,42 @@ h3{
     font-weight: bold;
 	
 }
+
 p{
 	size: "50";
-	font-size: 22px;
-	padding-top: 0px;
-	margin-left: 600px;
+	padding-top: 20px;
+	margin-left: 15px;
     margin-right: 10px;
-    margin-bottom:15px;
     align-self:center;
     color: rgb(255, 255, 255);
     font-weight: bold;
     
+}
+li{
+    display: inline;
+    /*background-color: 0;*/
+    margin-top: 10px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+
+
+/*.logo2{
+	 background-image:url("Logo.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    /*border: 10px  solid  yellowgreen  ;
+    border-radius: 50px 20px 10px 5px ; /* para circulo 50 px */
+  /* border-radius: 10px;
+	
+}*/
+
+a{
+	text-decoration: none;
+	color: white;
 }

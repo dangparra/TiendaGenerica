@@ -33,6 +33,14 @@ usuario=request.getParameter("us");
 }
 
 %>
+ <ul>
+                  <li> <a href="clientes.jsp">   Clientes   </a> </li>
+                  <li> <a href="proveedor.jsp" > Proveedores </a> </li>
+                  <li> <a href="productos.jsp" > Productos</a> </li>
+                  <li> <a href="ventas.jsp" >    Ventas</a> </li>                
+                <li> <a href="" > Reportes</a> </li>
+                 
+              </ul>
 <form action="Servletgestionusuarios" method ="post">
  <p>Cedula:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="cedula_usuario" value="<%=ced%>" size="20"   placeholder="Cedula Usuario"> </p>
 <br>
